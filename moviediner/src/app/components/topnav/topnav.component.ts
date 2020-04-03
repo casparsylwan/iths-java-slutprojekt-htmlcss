@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopnavComponent implements OnInit {
 
+  Heading:string = "Bio och Middag"
+
+  //Classes
+  line:string = "line";
+
+  spinTheLines:boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  openMenu(){
+
+    this.spinTheLines = !this.spinTheLines;
+
   }
 
 }
