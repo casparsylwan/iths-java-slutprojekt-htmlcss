@@ -1,0 +1,31 @@
+nav{
+    position: fixed;
+    background-color: #000;
+    width: 100vw;
+    height: 4rem;
+ 
+
+
+}
+
+.hamburger{
+    position: relative;
+    /*
+    background-color: white;
+    */
+    width: 4rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    float: right;
+    height: 100%;
+
+}
+
+.line{
+
+    background-color: white;
+    width: 3rem;
+    height: 5px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
